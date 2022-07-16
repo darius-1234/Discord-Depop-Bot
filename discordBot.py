@@ -1,20 +1,6 @@
-# bot.py
 import os
-
 import discord
 from dotenv import load_dotenv
-
-import requests as rq
-import json
-import statistics
-import numpy as np
-import sys
-import requests as rq
-import json
-import statistics
-import numpy as np
-import sys
-
 from DepopBot import scrape_site, clean_data, summary_of_prices, findInfo
 
 
